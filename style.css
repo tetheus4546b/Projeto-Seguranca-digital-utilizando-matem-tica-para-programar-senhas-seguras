@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
     --branco: white;
@@ -6,8 +6,8 @@
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --lora: 'Lora', serif;
+    --lora-mono: 'Lora', monospace;
 }
 
 * {
@@ -17,11 +17,11 @@
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--lora);
 }
 
 .titulo-principal {
-    font-family: var(--roboto-mono);
+    font-family: var(--lora-mono);
     font-size: 32px;
 }
 
