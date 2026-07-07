@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-    --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --branco: rgb(0, 0, 0);
+    --cor-de-fundo: #2600ff;
+    --fundo-senha: #ff8800;
+    --fundo-texto: #0fd1eb;
+    --borda: #51ff00;
     --lora: 'Lora', serif;
     --lora-mono: 'Lora', monospace;
 }
@@ -132,7 +132,7 @@ label{
 
 .fraca{
     width: 25%;
-    background-color: #E71B32; 
+    background-color: #004594; 
 }
 
 .parametro-senha-textos{
@@ -141,12 +141,12 @@ label{
 }
 
 .media{
-    background-color: #FAF408;
+    background-color: #009100;
     width: 50%;
 }
 
 .forte{
-    background-color: #00FF85;
+    background-color: #00a354;
     width: 100%;
 }
 
